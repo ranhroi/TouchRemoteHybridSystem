@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Điều khiển cảm ứng</string>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <string name="navigation_back">Quay lại</string>
+    <string name="guide_description">Hướng dẫn sử dụng</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">Cài đặt</string>
+
+    <!-- Language -->
+    <string name="language_select">Chọn ngôn ngữ</string>
+    <string name="language_auto">Tự động (Theo hệ thống)</string>
+    <string name="language_vietnamese">Tiếng Việt</string>
+    <string name="language_english">Tiếng Anh</string>
+    <string name="language_japanese">Tiếng Nhật</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_french">Français</string>
+    <string name="language_current_auto">🔄 Đang dùng: %s</string>
+    <string name="language_current_selected">✅ Đã chọn: %s</string>
+
+    <!-- Instruction items -->
+    <string name="instruction_language">0. Ngôn ngữ / Language</string>
+    <string name="instruction_cursor">1. Cài đặt tốc độ và cuộn chuột</string>
+    <string name="instruction_mouse">2. Kích hoạt cuộn tự nhiên\nĐổi hướng phím chuột trái phải</string>
+    <string name="instruction_ui">3. Kích hoạt các hiển thị weight</string>
+    <string name="instruction_service">4. Kích hoạt service chạy nền</string>
+    <string name="instruction_screen_mirror">5. Chiếu màn hình</string>
+    <string name="instruction_auto_connection">6. Kích hoạt kiểu kết nối tự động</string>
+
+    <!-- Cursor settings -->
+    <string name="cursor_speed">Tốc độ con trỏ: %d%%</string>
+    <string name="scroll_speed">Tốc độ cuộn lên xuống: %d%%</string>
+
+    <!-- Mouse options -->
+    <string name="mouse_left_hand">Chuột tay trái</string>
+    <string name="mouse_natural_scroll">Cuộn tự nhiên</string>
+    <string name="mouse_vibrate">Rung</string>
+
+    <!-- UI widgets -->
+    <string name="ui_show_floating">Hiển thị phím tắt nổi trên màn hình</string>
+    <string name="ui_show_hotkeys_weight">Hiển thị danh sách từ khóa nhanh</string>
+    <string name="ui_show_button_text">Hiển thị chữ và biểu tượng</string>
+    <string name="ui_show_rotation">Hiển thị Drawer bên phải</string>
+    <string name="ui_show_media_multitasking">Hiển thị tự động các app chơi nhạc</string>
+
+    <!-- Service -->
+    <string name="service_auto_task">Kích hoạt gửi tác vụ tiến trình tự động</string>
+
+    <!-- Screen Mirror -->
+    <string name="screen_mirror_auto">Kích hoạt chiếu màn hình tự động</string>
+
+    <!-- Auto connection -->
+    <string name="auto_connection">Kích hoạt kết nối tự động</string>
+    <!-- ==================== AUTO VERIFY PASSWORD ==================== -->
+    <string name="instruction_auto_verify_pass">Xác minh lại mật khẩu tự động</string>
+    <string name="auto_verify_select_times">Chọn số lần xác minh lại</string>
+
+    <!-- Icon Cache -->
+    <string name="instruction_icon_cache">Quản lý bộ nhớ cache icon</string>
+    <string name="icon_cache_reset">Đặt lại cache icon</string>
+
+    <!-- Save button -->
+    <string name="save_settings">Lưu cài đặt</string>
+    <string name="saved">Đã lưu!</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_title_download">Tải Ứng dụng</string>
+    <string name="onboarding_desc_download">Truy cập đường dẫn để tải ứng dụng và máy chủ</string>
+
+    <string name="onboarding_title_install">Cài đặt Ứng dụng</string>
+    <string name="onboarding_desc_install">Cài đặt phần mềm máy chủ trên máy tính theo hệ điều hành của bạn</string>
+
+    <string name="onboarding_title_search">Tìm kiếm Nhanh</string>
+    <string name="onboarding_desc_search">Bật chức năng tìm kiếm để quét các trình điều khiển đang hoạt động</string>
+
+    <string name="onboarding_title_sync">Đồng bộ Liền mạch</string>
+    <string name="onboarding_desc_sync">Điều khiển máy tính của bạn chỉ với một chạm</string>
+
+    <!-- Onboarding buttons -->
+    <string name="onboarding_button_next">Tiếp theo</string>
+    <string name="onboarding_button_skip">Bỏ qua</string>
+    <string name="onboarding_button_back">Quay lại</string>
+    <string name="onboarding_button_get_started">Bắt đầu</string>
+
+    <!-- Common -->
+    <string name="string_empty"></string>
+
+
+    <!-- ==================== SERVER LIST CONTROL SCREEN ==================== -->
+    <string name="server_saved_title">MÁY CHỦ ĐÃ LƯU: %d</string>
+    <string name="server_click_to_add">Nhấn vào máy chủ bên dưới để thêm và kết nối</string>
+    <string name="server_edit_port">Sửa cổng</string>
+    <string name="server_remove">Xóa máy chủ</string>
+    <string name="server_found_title">MÁY CHỦ TÌM THẤY:</string>
+    <string name="server_searching_wifi">Đang tìm kiếm Wi-Fi…</string>
+    <string name="server_no_wifi_found">Không tìm thấy máy chủ nào trên Wi-Fi</string>
+    <string name="server_searching_bluetooth">Đang tìm kiếm Bluetooth…</string>
+    <string name="server_no_bluetooth_found">Không tìm thấy thiết bị Bluetooth nào</string>
+    <string name="server_signal_strength">Tín hiệu: %s dBm</string>
+    <string name="server_enable_wifi_bluetooth">Vui lòng bật Wi-Fi hoặc Bluetooth</string>
+    <string name="server_set_ports_scanner">Thiết lập cổng quét:</string>
+    <string name="server_manual_add">Thêm máy chủ thủ công:</string>
+    <string name="server_confirm_delete_title">Xác nhận xóa</string>
+    <string name="server_confirm_delete_message">Bạn có chắc chắn muốn xóa máy chủ %s?</string>
+
+    <!-- ==================== SERVER SCREEN ==================== -->
+    <string name="server_title">Thiết lập Máy chủ</string>
+    <string name="server_guide_title">📖 HƯỚNG DẪN SỬ DỤNG</string>
+
+    <!-- ============================================================ -->
+    <!-- SERVER LIST CONTROL SCREEN                                    -->
+    <!-- ============================================================ -->
+    <string name="server_scan_ble">Quét Bluetooth</string>
+    <string name="server_scan_ble_stop">Dừng BLE</string>
+    <string name="server_scan_wifi">Quét Wi-Fi</string>
+    <string name="server_scan_wifi_stop">Dừng WiFi</string>
+
+    <string name="server_scanning_both">Đang quét BLE + Wi-Fi…</string>
+    <string name="server_scanning_ble">Đang quét Bluetooth…</string>
+    <string name="server_scanning_wifi">Đang quét Wi-Fi…</string>
+
+    <string name="server_found_empty_hint">Chưa tìm thấy thiết bị. Nhấn nút quét để bắt đầu.</string>
+
+    <!-- ==================== ShortKey SCREEN ==================== -->
+    <string name="ShortKey_name_label">Tên phím tắt</string>
+    <string name="ShortKey_name_empty">Tên không được để trống</string>
+    <string name="ShortKey_type_send">Kiểu gửi:</string>
+    <string name="ShortKey_send_char">Gửi ký tự:</string>
+    <string name="ShortKey_keys_selected">Phím đã chọn: %s</string>
+    <string name="ShortKey_reset">Đặt lại</string>
+    <string name="ShortKey_reset_success">Bàn phím đã đặt lại! Danh sách phím trống</string>
+    <string name="ShortKey_back">Quay lại</string>
+    <string name="ShortKey_keyboard">Bàn phím</string>
+    <!-- ==================== WEIGHT ShortKey ==================== -->
+    <string name="ShortKey_empty">Phím tắt trống!</string>
+    <string name="ShortKey_create">Tạo phím tắt</string>
+    <string name="ShortKey_remove">Xóa phím tắt</string>
+
+    <!-- ==================== Hot KEY SCREEN ==================== -->
+    <string name="hot_key_title">Phím nhanh</string>
+    <string name="hot_key_select_option">Chọn tùy chọn</string>
+    <string name="hot_key_add">Thêm phím nhanh</string>
+    <string name="hot_key_edit">Sửa nhanh</string>
+    <string name="hot_key_remove">Xóa nhanh</string>
+    <string name="hot_key_back">Quay lại</string>
+    <string name="hot_control_missing_keys">Thiếu cấu hình phím (cần 12, hiện có: %d)</string>
+
+    <!-- ==================== TASK MANAGER PAGER ==================== -->
+    <string name="task_auto">Tự động</string>
+    <string name="task_manual">Thủ công</string>
+    <string name="task_no_delay">Không trì hoãn</string>
+    <string name="task_seconds">%1$d,%2$d giây</string>
+    <string name="task_ms">%d ms</string>
+    <string name="task_disconnected">Đã dừng kết nối</string>
+    <string name="task_waiting_connection">Đang chờ kết nối…</string>
+    <string name="task_cpu">CPU</string>
+    <string name="task_ram">RAM</string>
+    <string name="task_process_name">Tên</string>
+    <string name="task_process_cpu">CPU</string>
+    <string name="task_process_ram">RAM</string>
+    <string name="task_no_processes">Không tìm thấy tiến trình nào</string>
+    <string name="task_kill_title">Kill %s?</string>
+    <string name="task_kill_message">Bạn có chắc chắn muốn kill tiến trình này?</string>
+    <string name="task_refresh">Làm mới</string>
+
+    <!-- ==================== PATHS WEIGHT ==================== -->
+    <string name="path_edit">Sửa đường dẫn</string>
+    <string name="path_create">Tạo đường dẫn</string>
+    <string name="path_remove">Xóa đường dẫn</string>
+    <string name="path_add_link">Thêm liên kết</string>
+
+    <!-- ==================== RUN COMMAND PAGER ==================== -->
+    <string name="cmd_connected">Đang kết nối</string>
+    <string name="cmd_disconnected">Đã dừng kết nối</string>
+    <string name="cmd_clear">Xóa</string>
+    <string name="cmd_send">Gửi</string>
+    <string name="cmd_quick_commands">Lệnh nhanh</string>
+    <string name="cmd_enter_command">Nhập lệnh…</string>
+    <string name="cmd_choose_command">Chọn lệnh</string>
+
+    <!-- Quick Commands List -->
+    <string name="cmd_ipconfig">ipconfig</string>
+    <string name="cmd_ping">ping google.com</string>
+    <string name="cmd_systeminfo">systeminfo</string>
+    <string name="cmd_sfc">sfc /scannow</string>
+    <string name="cmd_chkdsk">chkdsk</string>
+    <string name="cmd_tasklist">tasklist</string>
+    <string name="cmd_netstat">netstat -an</string>
+    <string name="cmd_dir">dir</string>
+    <string name="cmd_getmac">getmac</string>
+    <string name="cmd_driverquery">driverquery</string>
+    <string name="cmd_tracert">tracert google.com</string>
+    <string name="cmd_nslookup">nslookup google.com</string>
+    <string name="cmd_pathping">pathping google.com</string>
+    <string name="cmd_arp">arp -a</string>
+    <string name="cmd_powercfg">powercfg /batteryreport</string>
+    <string name="cmd_gpresult">gpresult /r</string>
+    <string name="cmd_assoc">assoc</string>
+    <string name="cmd_cipher">cipher /w:C:</string>
+    <string name="cmd_hostname">hostname</string>
+    <string name="cmd_wmic">wmic product get name</string>
+
+    <!-- ==================== APPLICATION PAGER ==================== -->
+    <string name="app_title">Phần Mềm</string>
+    <string name="app_connected">Đang kết nối</string>
+    <string name="app_disconnected">Đã dừng kết nối</string>
+    <string name="app_refresh">Làm mới</string>
+    <string name="app_empty_icon">Chưa có ứng dụng nào.\nVuốt xuống để tải lại.</string>
+    <string name="app_on">Mở</string>
+    <string name="app_off">Đóng</string>
+    <string name="app_launch">Mở ứng dụng</string>
+    <string name="app_close">Đóng ứng dụng</string>
+    <string name="app_launch_action">Mở ứng dụng</string>
+    <string name="app_close_action">Đóng ứng dụng</string>
+
+    <!-- Application Pager - Reset View -->
+    <string name="app_reset_view">Đặt lại chế độ xem</string>
+
+
+    <!-- ==================== FILES SCREEN PAGER ==================== -->
+    <!-- Header & Navigation -->
+    <string name="files_drives">Ổ đĩa máy tính</string>
+    <string name="files_ShortKeys">Lối tắt hệ thống</string>
+    <string name="files_back">Quay lại</string>
+    <string name="files_home">Trang chủ</string>
+    <string name="files_refresh">Làm mới</string>
+    <string name="files_upload">Tải lên</string>
+    <string name="files_repeat">Thử lại</string>
+    <string name="files_clear">Xóa</string>
+    <string name="files_paste">Dán</string>
+    <string name="files_add">Thêm</string>
+
+    <!-- Upload Menu -->
+    <string name="files_upload_file">Tải tệp tin lên PC</string>
+    <string name="files_upload_folder">Tải thư mục lên PC</string>
+    <string name="files_upload_folder_zip">Tải thư mục đóng gói lên PC</string>
+
+    <!-- Add Menu -->
+    <string name="files_new_folder">Thư mục mới</string>
+    <string name="files_new_file">Tệp tin mới</string>
+
+    <!-- Progress & Transfer -->
+    <string name="files_download_complete">Tải xuống hoàn tất</string>
+    <string name="files_zip_downloaded">Đã tải xong tệp tin nén của thư mục: %s</string>
+    <string name="files_zip_question">Bạn muốn làm gì với tệp tin nén này?</string>
+    <string name="files_extract">Giải nén</string>
+    <string name="files_keep_zip">"Giữ nguyên tệp tin nén "</string>
+
+    <!-- Resume Download Dialog -->
+    <string name="files_resume_title">Chọn tệp cần tiếp tục tải</string>
+    <string name="files_resume_detected">Phát hiện %d tệp tin đang tải dang dở:</string>
+    <string name="files_resume_download">Tải: %s</string>
+    <string name="files_resume_skip_all">Bỏ qua tất cả</string>
+
+    <!-- Clear Pending Dialog -->
+    <string name="files_clear_history">Xóa lịch sử</string>
+    <string name="files_clear_confirm">Bạn có chắc muốn xóa %d tệp tin đang tải dang dở?</string>
+
+    <!-- File Operations -->
+    <string name="files_copy">Sao chép</string>
+    <string name="files_cut">Cắt</string>
+    <string name="files_rename">Đổi tên</string>
+    <string name="files_delete">Xóa</string>
+    <string name="files_download">Tải xuống</string>
+    <string name="files_download_zip">Tải xuống (tệp tin nén)</string>
+    <string name="files_details">Chi tiết</string>
+    <string name="files_open">Mở</string>
+
+    <!-- Create Dialogs -->
+    <string name="files_create_file">Tạo tệp tin</string>
+    <string name="files_create_folder">Tạo thư mục</string>
+    <string name="files_enter_name">Nhập tên</string>
+    <string name="files_rename_title">Đổi tên</string>
+    <string name="files_new_name">Tên mới</string>
+
+    <!-- Toast Messages -->
+    <string name="files_select_drive_first">Vui lòng chọn ổ đĩa hoặc một thư mục cụ thể trên máy tính trước.</string>
+    <string name="files_use_upload_button">Dùng nút Upload trên góc phải.</string>
+
+    <!-- Connection Status -->
+    <string name="files_transferring">Đang truyền…</string>
+    <string name="files_paused">Đã tạm dừng</string>
+
+    <!-- File/Item Types -->
+    <string name="files_folder">Thư mục</string>
+    <string name="files_file">Tệp tin</string>
+
+    <!-- Buttons -->
+    <string name="files_cancel">Hủy</string>
+    <string name="files_confirm">Xác nhận</string>
+
+    <!-- Default Folder Names -->
+    <string name="files_desktop">Desktop</string>
+    <string name="files_documents">Documents</string>
+    <string name="files_downloads">Downloads</string>
+    <string name="files_music">Music</string>
+    <string name="files_pictures">Pictures</string>
+    <string name="files_videos">Videos</string>
+    <!-- Files screens -->
+    <string name="files_notification_approved">Quyền thông báo đã được cấp.</string>
+    <string name="files_notification_denied">Quyền thông báo bị từ chối.\nThông báo nền bị ẩn.</string>
+    <string name="files_delete_selected_title">Xóa %d mục</string>
+    <string name="files_delete_selected_message">Bạn có chắc chắn muốn xóa %d mục đã chọn?</string>
+    <string name="files_delete_all">Xóa tất cả</string>
+    <string name="files_close_selection">Đóng chọn</string>
+    <string name="files_selected_count">Đã chọn: %d</string>
+    <string name="files_select_all">Chọn tất cả</string>
+    <string name="files_bt_warning">Cảnh báo: Tốc độ Bluetooth bị giới hạn 200MB hoặc ít hơn.</string>
+    <!-- ==================== FILE ITEM ==================== -->
+    <!-- Menu Items -->
+    <string name="file_download_file">Tải tệp tin về điện thoại</string>
+    <string name="file_download_folder">Tải thư mục về điện thoại</string>
+    <string name="file_download_zip_file">Tải tệp tin nén về điện thoại</string>
+    <string name="file_download_zip_folder">Tải thư mục nén về điện thoại</string>
+    <string name="file_open_file">Mở tệp tin trên máy tính</string>
+    <string name="file_open_folder">Mở thư mục trên máy tính</string>
+    <string name="file_copy_file">Sao chép tệp tin</string>
+    <string name="file_copy_folder">Sao chép thư mục</string>
+    <string name="file_cut_file">Cắt tệp tin</string>
+    <string name="file_cut_folder">Cắt thư mục</string>
+    <string name="file_rename_file">Đổi tên tệp tin</string>
+    <string name="file_rename_folder">Đổi tên thư mục</string>
+    <string name="file_upload_file">Tải tệp tin lên máy tính</string>
+    <string name="file_upload_folder">Tải danh mục lên máy tính</string>
+    <string name="file_details_file">Chi tiết tệp tin</string>
+    <string name="file_details_folder">Chi tiết thư mục</string>
+    <string name="file_delete_file">Xóa tệp tin</string>
+    <string name="file_delete_folder">Xóa thư mục</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="file_delete_confirm_title">Xác nhận xóa</string>
+    <string name="file_delete_confirm_file">Bạn có chắc chắn muốn xóa tệp tin %s?\n\nHành động này không thể hoàn tác.</string>
+    <string name="file_delete_confirm_folder">Bạn có chắc chắn muốn xóa thư mục %s?\n\nHành động này không thể hoàn tác.</string>
+
+    <string name="files_pending_downloads">Đang tải dở</string>
+    <string name="files_resume_view_list">Xem danh sách (%d)</string>
+    <string name="files_resume_all">Tải tiếp tất cả</string>
+    <string name="files_clear_all_pending">Xóa tất cả</string>
+    <!-- More Options -->
+    <string name="file_more_options">Thêm tùy chọn</string>
+
+
+    <!-- ==================== FILE DOWNLOAD/UPLOAD HANDLER ==================== -->
+    <!-- Download Handler -->
+    <string name="download_no_connection">Không có kết nối truyền tải</string>
+    <string name="download_connection_lost">Mất kết nối đầu vào</string>
+    <string name="download_connection_lost_output">Mất kết nối đầu ra</string>
+    <string name="download_server_refused">Server từ chối: %s</string>
+    <string name="download_invalid_response">Phản hồi sai định dạng: %s</string>
+    <string name="download_invalid_size">Kích thước tệp tin không hợp lệ</string>
+    <string name="download_network_lost">Mất kết nối mạng giữa chừng</string>
+    <string name="download_incomplete_data">Dữ liệu nhận được không đầy đủ</string>
+    <string name="download_resume_title">Tiếp tục tải</string>
+    <string name="download_resuming">Đang nối tệp tin...</string>
+    <string name="download_title">Tải về</string>
+    <string name="download_initializing">Đang khởi tạo...</string>
+    <string name="download_complete_title">Tải xong:</string>
+    <string name="download_saving">Đang lưu file...</string>
+    <string name="download_complete_msg">Tải xong: %s</string>
+    <string name="download_error">Lỗi: %s</string>
+    <string name="download_scanning_folder">Quét thư mục</string>
+    <string name="download_please_wait">Vui lòng chờ...</string>
+    <string name="download_no_folder_response">Server không phản hồi cấu trúc</string>
+    <string name="download_folder_title">Tải thư mục: %s</string>
+    <string name="download_folder_progress">File %d/%d</string>
+    <string name="download_folder_complete">Tải thư mục xong</string>
+    <string name="download_zip_title">Tải Zip</string>
+    <string name="download_zip_compressing">Đang nén trên PC...</string>
+    <string name="download_zip_empty">File zip tải về bị rỗng hoặc lỗi</string>
+    <string name="download_extracting">Giải nén</string>
+    <string name="download_extracting_progress">Đang bung file...</string>
+    <string name="download_extract_error">Lỗi giải nén file: %s</string>
+    <string name="download_extract_complete_error">Giải nén hoàn tất có lỗi: %s</string>
+    <string name="download_extract_complete">Giải nén xong: %s (%d files)</string>
+    <string name="download_zip_saved">Đã lưu zip: %s (%s)</string>
+    <string name="download_zip_temp_error">File zip tạm bị rỗng hoặc không tồn tại</string>
+    <string name="download_zip_error">Lỗi Zip: %s</string>
+
+    <!-- Upload Handler -->
+    <string name="upload_no_connection">Không có kết nối truyền tải</string>
+    <string name="upload_server_refused">Server từ chối lệnh: %s</string>
+    <string name="upload_file_error">Lỗi lưu tệp tin trên máy tính: %s</string>
+    <string name="upload_response_too_large">" Phản hồi quá lớn (>10MB)"</string>
+    <string name="upload_cannot_open_file">Không mở được tệp tin</string>
+    <string name="upload_title">Tải lên</string>
+    <string name="upload_initializing">Đang khởi tạo...</string>
+    <string name="upload_success">Tải lên thành công: %s</string>
+    <string name="upload_error">Lỗi tải lên: %s</string>
+    <string name="upload_scanning_folder">Đang quét thư mục...</string>
+    <string name="upload_empty_folder">Thư mục trống!</string>
+    <string name="upload_folder_too_large">Thư mục quá lớn!</string>
+    <string name="upload_folder_progress">Đang tải lên: %s</string>
+    <string name="upload_folder_file_progress">File %d/%d</string>
+    <string name="upload_folder_detail">File %d/%d | %s / %s</string>
+    <string name="upload_folder_complete">Hoàn thành: %s (Lỗi %d tệp tin)</string>
+    <string name="upload_folder_success">Tải lên thành công: %s</string>
+    <string name="upload_folder_error">Lỗi tải lên thư mục: %s</string>
+    <string name="upload_zip_compressing">Nén dữ liệu</string>
+    <string name="upload_zip_packaging">Đang đóng gói...</string>
+    <string name="upload_zip_uploading">Đang tải lên</string>
+    <string name="upload_zip_sending">Gửi file nén...</string>
+    <string name="upload_zip_success">Tải lên thư mục thành công!</string>
+    <string name="upload_cancelled">Đã hủy</string>
+    <string name="upload_read_error">Lỗi đọc tệp tin từ điện thoại</string>
+    <string name="upload_access_denied">Hệ thống từ chối truy cập.</string>
+    <string name="upload_invalid_path">Đường dẫn không hợp lệ.</string>
+    <string name="upload_cannot_access_folder">Không truy cập được thư mục</string>
+    <string name="upload_unzipping_title">Đang giải nén...</string>
+    <string name="upload_unzipping_status">Đang bung tệp tin trên máy tính, vui lòng đợi...</string>
+    <string name="upload_processing_disk">Đang xử lý ổ đĩa PC...</string>
+
+    <!-- File Operations Handler -->
+    <string name="fileop_open_success">Đã mở</string>
+    <string name="fileop_open_failed">Mở thất bại</string>
+    <string name="fileop_copy_success">Đã sao chép</string>
+    <string name="fileop_copy_failed">Sao chép thất bại</string>
+    <string name="fileop_cut_success">Đã cắt</string>
+    <string name="fileop_cut_failed">Cắt thất bại</string>
+    <string name="fileop_delete_success">Đã xóa</string>
+    <string name="fileop_delete_failed">Xóa thất bại</string>
+    <string name="fileop_paste_success">Đã dán thành công</string>
+    <string name="fileop_paste_failed">Dán thất bại</string>
+    <string name="fileop_rename_success">Đã đổi tên thành: %s</string>
+    <string name="fileop_rename_failed">Đổi tên thất bại</string>
+    <string name="fileop_create_file_success">Đã tạo file: %s</string>
+    <string name="fileop_create_file_exists">File đã tồn tại: %s</string>
+    <string name="fileop_create_file_failed">Tạo file thất bại</string>
+    <string name="fileop_create_folder_success">Đã tạo thư mục: %s</string>
+    <string name="fileop_create_folder_failed">Tạo thư mục thất bại</string>
+    <string name="fileop_details_failed">Không thể lấy thông tin file</string>
+    <string name="fileop_details_folder">Thư mục</string>
+    <string name="fileop_details_no_info">Không có thông tin</string>
+    <string name="fileop_error_prefix">Lỗi: %s</string>
+
+    <!-- ==================== FILE EXPLORER VIEWMODEL ==================== -->
+    <string name="file_explorer_empty_folder">Thư mục trống hoặc không tồn tại.</string>
+    <string name="file_explorer_cleared_history">Đã xóa tất cả lịch sử tải xuống dang dở</string>
+    <string name="file_explorer_cancelled_emergency">Đã hủy khẩn cấp</string>
+    <string name="file_explorer_cancelled_resumable">Đã hủy (có thể tải lại sau)</string>
+    <string name="file_explorer_paused">Đã tạm dừng</string>
+    <string name="file_explorer_reconnecting">Đang kết nối lại…</string>
+    <string name="file_explorer_no_resumable_file">Không có tệp tin đang tải dở</string>
+    <string name="file_explorer_cannot_reconnect">Không thể kết nối lại luồng truyền tải</string>
+    <string name="file_explorer_response_too_large">Phản hồi quá lớn (>10MB)</string>
+    <string name="file_explorer_unexpected_stream">Dòng dữ liệu kết thúc đột ngột</string>
+    <string name="file_explorer_reset_complete">✅ Đã làm mới toàn bộ, dữ liệu đang ghi vẫn được giữ nguyên</string>
+
+    <!-- ==================== DOWNLOAD ERRORS ==================== -->
+    <string name="download_error_file_not_found">Không tìm thấy file trên máy tính</string>
+    <string name="download_error_permission_denied">Không có quyền đọc file</string>
+    <string name="download_error_file_too_large">File quá lớn (>10GB)</string>
+    <string name="download_error_cannot_open">Không thể mở file</string>
+    <string name="download_error_folder_not_found">Không tìm thấy thư mục</string>
+    <string name="download_error_cannot_open_zip">Không thể mở file zip</string>
+    <string name="download_error_compress_failed">Nén thư mục thất bại</string>
+    <string name="download_error_send_timeout">Gửi dữ liệu quá lâu, vui lòng thử lại</string>
+    <string name="download_error_user_cancelled">Đã hủy tải xuống</string>
+    <string name="download_error_folder_too_large_for_bluetooth">Thư mục quá lớn cho Bluetooth (>200MB). Vui lòng dùng Wi-Fi</string>
+    <string name="download_error_zip_too_large_for_bluetooth">File zip quá lớn cho Bluetooth (>200MB). Vui lòng dùng Wi-Fi</string>
+
+    <!-- ==================== UPLOAD ERRORS ==================== -->
+    <string name="upload_error_invalid_format">Lệnh upload sai định dạng</string>
+    <string name="upload_error_invalid_size">Kích thước file không hợp lệ</string>
+    <string name="upload_error_cannot_create_file">Không thể tạo file trên máy tính</string>
+    <string name="upload_error_cannot_create_dir">Không thể tạo thư mục trên máy tính</string>
+    <string name="upload_error_cannot_create_temp_zip">Không thể tạo file zip tạm</string>
+    <string name="upload_error_file_too_large_for_bluetooth">File quá lớn cho Bluetooth (>200MB). Vui lòng dùng Wi-Fi</string>
+    <string name="upload_error_folder_too_large_for_bluetooth">Thư mục quá lớn cho Bluetooth (>200MB). Vui lòng dùng Wi-Fi</string>
+    <string name="upload_error_unzip_failed">Giải nén thất bại trên máy tính</string>
+    <string name="upload_failed_incomplete">Upload không hoàn chỉnh</string>
+
+    <!-- ==================== FILE OPERATION ERRORS ==================== -->
+    <string name="fileop_paste_failed_no_source">Không có dữ liệu để dán</string>
+    <string name="fileop_path_not_found">Đường dẫn không tồn tại</string>
+
+    <!-- ==================== FOLDER INFO ERROR ==================== -->
+    <string name="folder_info_error">Lỗi đọc thư mục: %s</string>
+
+    <!-- ==================== GENERAL ERROR ==================== -->
+    <string name="unknown_error">Lỗi không xác định: %s</string>
+
+    <!-- ==================== DRAWER CONTENT ==================== -->
+    <!-- Drawer Menu Items -->
+    <string name="drawer_servers_manager">Quản lý máy chủ</string>
+    <string name="drawer_shortkey_manager">Quản lý phím tắt</string>
+    <string name="drawer_quickkey_manager">Quản lý phím nhanh</string>
+    <string name="drawer_help_install">Trợ giúp cài đặt</string>
+    <string name="drawer_settings_app">Cài đặt ứng dụng</string>
+    <string name="drawer_close">Đóng Drawer</string>
+
+    <!-- Server Dropdown -->
+    <string name="drawer_nothing">Không có</string>
+    <string name="drawer_device_type">Loại thiết bị</string>
+
+    <!-- ==================== DIALOG ADD NEW SERVER ==================== -->
+    <string name="dialog_add_server_title">Thêm máy chủ mới</string>
+    <string name="dialog_add_server_bt">BT</string>
+    <string name="dialog_add_server_wifi">Wifi</string>
+    <string name="dialog_port_label">Cổng máy chủ</string>
+    <string name="dialog_port_error">Phải là số</string>
+    <string name="dialog_name_label">Tên máy chủ</string>
+    <string name="dialog_address_label">Địa chỉ IP</string>
+    <string name="dialog_mac_label">Địa chỉ MAC</string>
+    <string name="dialog_uuid_label">UUID (8-4-4-4-12)</string>
+    <string name="dialog_uuid_error">Định dạng UUID không hợp lệ</string>
+    <string name="dialog_password_label">Mật khẩu (Tùy chọn)</string>
+    <string name="dialog_remember_password">Ghi nhớ mật khẩu</string>
+    <string name="dialog_port_invalid">Port không hợp lệ!</string>
+    <string name="dialog_name_empty">Vui lòng nhập tên!</string>
+    <string name="dialog_address_empty">Vui lòng nhập địa chỉ!</string>
+    <string name="dialog_uuid_invalid">UUID chưa đúng định dạng!</string>
+    <string name="dialog_button_add">Thêm</string>
+    <string name="dialog_button_cancel">Hủy</string>
+
+    <!-- ==================== DIALOG ADD PORTS ==================== -->
+    <string name="dialog_ports_title">Nhập cổng địa chỉ:</string>
+    <string name="dialog_ports_scanner_label">Cổng quét: 2008</string>
+    <string name="dialog_ports_connection_label">Cổng kết nối</string>
+    <string name="dialog_ports_invalid">Vui lòng nhập số hợp lệ cho tất cả các port.</string>
+    <string name="dialog_ports_save">Lưu</string>
+    <string name="dialog_ports_cancel">Hủy</string>
+    <!-- ==================== DIALOG BOX HOTKEY ==================== -->
+    <string name="hotkey_top_circle">Top circle:</string>
+    <string name="hotkey_key_char">Key char:</string>
+    <string name="hotkey_name_label">Tên</string>
+    <string name="hotkey_ShortKeys_label">Phím tắt (vd: CTRL+c, ALT+TAB)</string>
+    <!-- ==================== DIALOG BOX PATH ==================== -->
+    <string name="path_name_label">Tên</string>
+    <string name="path_path_label">Đường dẫn</string>
+    <!-- ==================== DIALOG EDIT SERVER ==================== -->
+    <string name="dialog_edit_server_title">Sửa máy chủ</string>
+    <string name="dialog_edit_port_label">Cổng máy chủ</string>
+    <string name="dialog_edit_port_error">Port phải là số</string>
+    <string name="dialog_edit_name_label">Tên máy chủ</string>
+    <string name="dialog_edit_address_label">Địa chỉ IP / Mac</string>
+    <string name="dialog_edit_uuid_label">UUID máy chủ</string>
+    <string name="dialog_edit_uuid_error">Định dạng UUID không đúng (8-4-4-4-12)</string>
+    <string name="dialog_edit_password_label">Mật khẩu</string>
+    <string name="dialog_edit_remember_password">Ghi nhớ mật khẩu</string>
+    <string name="dialog_edit_port_invalid">Port không hợp lệ!</string>
+    <string name="dialog_edit_name_empty">Name không được để trống!</string>
+    <string name="dialog_edit_address_empty">Address không được để trống!</string>
+    <string name="dialog_edit_uuid_invalid">UUID không đúng định dạng!</string>
+    <string name="dialog_edit_save">Lưu</string>
+    <string name="dialog_edit_cancel">Hủy</string>
+    <!-- ==================== DIALOG INSERT/UPDATE PATH ==================== -->
+    <string name="dialog_add_path_title">Thêm phân tử</string>
+    <string name="dialog_update_path_title">Cập nhật phần tử</string>
+    <string name="dialog_path_add">Thêm</string>
+    <string name="dialog_path_update">Cập nhật</string>
+    <!-- ==================== DIALOG VERIFY PASSWORD ==================== -->
+    <string name="dialog_verify_title">🔐 Nhập mật khẩu</string>
+    <string name="dialog_verify_server_label">Máy chủ: %s</string>
+    <string name="dialog_verify_password_label">Mật khẩu</string>
+    <string name="dialog_verify_hide_password">Ẩn mật khẩu</string>
+    <string name="dialog_verify_show_password">Hiện mật khẩu</string>
+    <string name="dialog_verify_remember_password">Ghi nhớ mật khẩu</string>
+    <string name="dialog_verify_cancel">Hủy</string>
+    <string name="dialog_verify_confirm">Xác thực</string>
+    <string name="dialog_verify_auto_title">🔐 Tự động xác thực</string>
+    <string name="dialog_verify_auto_message">Đang tự động đăng nhập...</string>
+    <string name="dialog_verify_auto_retry">Lần thử %d/%d</string>
+    <string name="dialog_verify_auto_retry_infinite">Tự động thử lại lần #%1$d...</string>
+    <string name="dialog_verify_auto_failed_infinite">Tự động xác thực thất bại, vui lòng nhập thủ công.</string>
+    <string name="dialog_verify_auto_failed">❌ Xác thực tự động thất bại. Vui lòng nhập thủ công!</string>
+    <string name="dialog_verify_invalid_password">Mật khẩu không hợp lệ. Vui lòng thử lại.</string>
+
+    <!-- ==================== FILE DETAILS DIALOG ==================== -->
+    <string name="file_details_title_folder">Chi tiết thư mục</string>
+    <string name="file_details_title_file">Chi tiết tệp tin</string>
+    <string name="file_details_name">Tên:</string>
+    <string name="file_details_type">Loại:</string>
+    <string name="file_details_type_folder">Thư mục</string>
+    <string name="file_details_type_file">Tệp tin</string>
+    <string name="file_details_size">Kích thước:</string>
+    <string name="file_details_date">Ngày sửa đổi:</string>
+    <string name="file_details_path">Đường dẫn:</string>
+    <string name="file_details_close">Đóng</string>
+
+    <!-- ==================== INPUT TEXT DIALOG ==================== -->
+    <string name="input_dialog_placeholder">Nhập nội dung...</string>
+    <string name="input_dialog_error_empty">Vui lòng nhập nội dung</string>
+    <string name="input_dialog_confirm">Xác nhận</string>
+    <string name="input_dialog_cancel">Hủy</string>
+
+    <!-- ==================== PROGRESS DIALOG ==================== -->
+    <string name="progress_processing">Đang xử lý…</string>
+    <string name="progress_resume">Tiếp tục</string>
+    <string name="progress_pause">Tạm dừng</string>
+    <string name="progress_cancel_immediate">Hủy ngay</string>
+    <!-- ==================== CONNECTION VIEW MODEL ==================== -->
+
+    <!-- Auto Connect -->
+    <string name="connection_auto_failed">Tự động kết nối thất bại</string>
+
+    <!-- Connect -->
+    <string name="connection_connecting_role">Đang kết nối %2$s đến %1$s...</string>
+    <string name="connection_disconnected">Đã ngắt kết nối</string>
+    <string name="connection_success">Kết nối thành công</string>
+    <string name="connection_failed">Không thể kết nối đến %1$s</string>
+
+    <!-- Authentication -->
+    <string name="connection_auth_success">Xác thực thành công</string>
+    <string name="connection_auth_retry">Xác thực lần %1$d/%2$d...</string>
+    <string name="connection_auth_auto_retry">Đang tự động xác thực...</string>
+    <string name="connection_auth_failed_password">Xác thực thất bại, vui lòng nhập mật khẩu</string>
+    <string name="connection_auth_failed_retry">Hết số lần thử (%1$d), vui lòng nhập thủ công</string>
+    <string name="connection_checking_password">Đang kiểm tra mật khẩu...</string>
+    <string name="connection_save_password_error">Lỗi lưu mật khẩu</string>
+
+    <!-- Ping -->
+    <string name="connection_pinging">Đang ping %1$s...</string>
+    <string name="connection_not_connected_role">%1$s chưa kết nối</string>
+    <string name="connection_reconnecting_role">Đang kết nối lại %1$s...</string>
+    <string name="connection_stable_role">Kết nối %1$s ổn định</string>
+    <string name="connection_ping_failed_role">Ping %1$s thất bại</string>
+    <string name="connection_reconnect_failed">Kết nối lại thất bại</string>
+
+    <!-- Network -->
+    <string name="connection_wifi_bluetooth_off">WiFi và Bluetooth đều tắt</string>
+    <string name="connection_enable_network">Vui lòng bật WiFi hoặc Bluetooth</string>
+
+    <!-- UI -->
+    <string name="connection_no_server">Không có máy chủ nào được chọn</string>
+    <string name="connection_select_server">Vui lòng chọn máy chủ</string>
+    <string name="connection_cancelled">Đã hủy</string>
+
+    <!-- No Server -->
+    <string name="no_server_title">Chưa có máy chủ nào</string>
+    <string name="no_server_message">Vui lòng thêm máy chủ để bắt đầu sử dụng ứng dụng</string>
+    <string name="no_server_button">Thêm máy chủ</string>
+
+    <!-- Badges -->
+    <string name="server_badge_ble">BLE</string>
+    <string name="server_badge_wifi">WiFi</string>
+
+    <!-- Default name -->
+    <string name="server_unknown_name">Không rõ</string>
+
+    <!-- ============================================================
+         NETWORK STATUS STRINGS - Vietnamese
+         ============================================================ -->
+
+    <string name="network_status_no_network">Không có kết nối mạng</string>
+    <string name="network_status_need_password">Cần mật khẩu cho %1$s</string>
+    <string name="network_status_loading">Đang tải...</string>
+    <string name="network_status_disconnected">Đã ngắt kết nối</string>
+    <string name="network_status_connected">Đã kết nối</string>
+    <string name="network_button_turn_on">Bật</string>
+    <string name="network_button_choose_server">Chọn máy chủ</string>
+    <string name="network_button_reconnect">Kết nối lại</string>
+    <string name="network_button_enter_password">Nhập mật khẩu</string>
+
+
+    <!-- ============================================================ -->
+    <!-- SHORTCUT SCREEN                                               -->
+    <!-- ============================================================ -->
+    <string name="shortcut_title_add">Thêm phím tắt</string>
+    <string name="shortcut_back">Quay lại</string>
+    <string name="shortcut_saved_success">Đã lưu phím tắt</string>
+    <string name="shortcut_name_empty">Tên phím tắt không được để trống</string>
+    <string name="shortcut_name_label">Tên phím tắt</string>
+    <string name="shortcut_name_placeholder">VD: Lưu tất cả</string>
+    <string name="shortcut_save">Lưu</string>
+    <string name="shortcut_combination_count">Tổ hợp (%1$d phím)</string>
+    <string name="shortcut_clear_all">Xóa tất cả</string>
+    <string name="shortcut_remove_key">Xóa phím</string>
+    <string name="shortcut_search_hint">Tìm phím…</string>
+    <string name="shortcut_search_clear">Xóa tìm kiếm</string>
+    <string name="shortcut_no_keys_found">Không tìm thấy phím nào</string>
+
+    <string name="power_shortcut_title">Không có phím tắt nguồn</string>
+    <string name="power_confirm_title">Máy tính %s</string>
+    <string name="power_confirm_message">Bạn có chắc muốn %s không?</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — GENERAL                                         -->
+    <!-- ============================================================ -->
+    <string name="quickkey_title_add">Thêm phím tắt</string>
+    <string name="quickkey_title_edit">Sửa phím tắt</string>
+    <string name="quickkey_back">Quay lại</string>
+    <string name="quickkey_save">Lưu</string>
+    <string name="quickkey_create">Tạo mới</string>
+    <string name="quickkey_edit">Sửa</string>
+    <string name="quickkey_remove">Xóa</string>
+    <string name="quickkey_empty">Chưa có phím tắt</string>
+    <string name="quickkey_saved_success">Đã lưu phím tắt</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — NAME                                            -->
+    <!-- ============================================================ -->
+    <string name="quickkey_name_label">Tên</string>
+    <string name="quickkey_name_placeholder">Nhập tên phím tắt</string>
+    <string name="quickkey_name_empty">Vui lòng nhập tên</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — SEARCH                                          -->
+    <!-- ============================================================ -->
+    <string name="quickkey_search_hint">Tìm phím…</string>
+    <string name="quickkey_search_clear">Xóa tìm kiếm</string>
+    <string name="quickkey_no_keys_found">Không có phím nào</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — COMBINATION PREVIEW                             -->
+    <!-- ============================================================ -->
+    <string name="quickkey_combination_count">Tổ hợp (%1$d)</string>
+    <string name="quickkey_clear_all">Xóa tất cả</string>
+    <string name="quickkey_remove_key">Xóa phím</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — PRESET                                          -->
+    <!-- ============================================================ -->
+    <string name="quickkey_preset_all">Tất cả</string>
+    <string name="quickkey_preset_choose">Chọn phần mềm</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — TYPE                                            -->
+    <!-- ============================================================ -->
+    <string name="quickkey_type_label">Loại</string>
+    <string name="quickkey_type_shortcut">Phím tắt</string>
+    <string name="quickkey_type_launch">Khởi chạy</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — LAUNCH SECTION                                  -->
+    <!-- ============================================================ -->
+    <string name="quickkey_launch_section">Khởi chạy phần mềm</string>
+
+    <string name="quickkey_preset_add_new">Thêm phần mềm mới…</string>
+    <string name="quickkey_preset_name_placeholder">Tên phần mềm</string>
+    <string name="quickkey_preset_add_confirm">Xác nhận</string>
+    <string name="quickkey_preset_add_cancel">Hủy</string>
+
+    <!-- ============================================================ -->
+    <!-- WEIGHT SHORTCUT — MAIN                                        -->
+    <!-- ============================================================ -->
+    <string name="shortcut_empty">Phím tắt trống!</string>
+    <string name="shortcut_create">Tạo phím tắt</string>
+    <string name="shortcut_remove">Xóa phím tắt</string>
+    <string name="shortcut_keyboard">Bàn phím</string>
+
+    <!-- ============================================================ -->
+    <!-- SHORTCUT TYPE NAMES                                          -->
+    <!-- ============================================================ -->
+    <string name="shortcut_type_media_default">Media mặc định</string>
+    <string name="shortcut_type_youtube">YouTube</string>
+    <string name="shortcut_type_dailymotion">Dailymotion</string>
+    <string name="shortcut_type_video_player">Video</string>
+    <string name="shortcut_type_music_player">Nhạc</string>
+
+    <!-- CAPTIONS -->
+    <string name="media_shortcut_captions">Phụ đề</string>
+
+    <!-- ============================================================ -->
+    <!-- WEIGHT COMMAND KEYS KEYBOARD                                  -->
+    <!-- ============================================================ -->
+    <string name="command_keys_search_hint">Tìm phím…</string>
+    <string name="command_keys_search_clear">Xóa tìm kiếm</string>
+    <string name="command_keys_close">Đóng</string>
+    <string name="command_keys_selected_count">Tổ hợp đã chọn (%1$d):</string>
+    <string name="command_keys_clear_all">Xóa tất cả</string>
+    <string name="command_keys_remove_key">Xóa phím</string>
+    <string name="command_keys_backspace">Xóa lùi</string>
+    <string name="command_keys_send_with_keys">Gửi: %1$s</string>
+    <string name="command_keys_pick_more">Chọn thêm phím…</string>
+    <string name="command_keys_sent">Đã gửi: %1$s</string>
+    <string name="command_keys_invalid">Tổ hợp không hợp lệ</string>
+
+    <!-- Key Groups -->
+    <string name="key_group_modifiers">Phím bổ trợ</string>
+    <string name="key_group_letters">Chữ cái</string>
+    <string name="key_group_digits">Chữ số</string>
+    <string name="key_group_symbols">Ký hiệu</string>
+    <string name="key_group_function">Chức năng</string>
+    <string name="key_group_navigation">Điều hướng</string>
+    <string name="key_group_control">Điều khiển</string>
+
+    <!-- ============================================================ -->
+    <!-- BOTTOM NAVIGATION                                             -->
+    <!-- ============================================================ -->
+    <string name="bottom_nav_mouse">Chuột</string>
+    <string name="bottom_nav_shortcut">Phím tắt</string>
+    <string name="bottom_nav_keyboard">Bàn phím</string>
+    <string name="bottom_nav_media">Media</string>
+    <string name="bottom_nav_browser">Trình duyệt</string>
+    <string name="bottom_nav_power">Nguồn</string>
+
+    <!-- ============================================================ -->
+    <!-- ICON PICKER                                                   -->
+    <!-- ============================================================ -->
+    <string name="icon_picker_dropdown_loading_icons">Đang tải biểu tượng…</string>
+    <string name="shortcut_setup_title">Thiết lập phím nhanh</string>
+    <string name="shortcut_setup_select_option">Tùy chọn</string>
+    <string name="shortcut_setup_edit">Chỉnh sửa</string>
+    <string name="shortcut_setup_remove">Xóa</string>
+    <string name="os_ubuntu">Ubuntu</string>
+
+    <string name="command_keys_mode_combo">Tổ hợp</string>
+    <string name="command_keys_mode_instant">Gửi ngay</string>
+    <string name="command_keys_instant_hint">Chạm phím để gửi ngay. Modifier (Ctrl/Shift/Alt/Win) sẽ được giữ (latch) cho đến khi chạm lại.</string>
+
+    <!-- Folders -->
+    <string name="hotkey_computer">Máy tính</string>
+    <string name="hotkey_desktop">Màn hình nền</string>
+    <string name="hotkey_documents">Tài liệu</string>
+    <string name="hotkey_downloads">Tải xuống</string>
+    <string name="hotkey_music">Nhạc</string>
+    <string name="hotkey_videos">Video</string>
+    <string name="hotkey_pictures">Hình ảnh</string>
+
+    <!-- ==================== SCAN APPS BUTTON ==================== -->
+    <string name="scan_apps_stop">Dừng quét</string>
+    <string name="scan_apps_scan">Quét ứng dụng</string>
+    <string name="select_app">Chọn ứng dụng</string>
+
+    <!-- ==================== SCREEN MIRROR PAGER ==================== -->
+
+    <!-- Mirror Screen -->
+    <string name="mirror_mouse_adjust">🖱️ Điều chỉnh con trỏ</string>
+    <string name="mirror_mouse_x">Trục X (Ngang)</string>
+    <string name="mirror_mouse_x_desc">Điều chỉnh vị trí ngang của chuột ảo</string>
+    <string name="mirror_mouse_y">Trục Y (Dọc)</string>
+    <string name="mirror_mouse_y_desc">Điều chỉnh vị trí dọc của chuột ảo (độ tụt Taskbar)</string>
+    <string name="mirror_reset">Reset</string>
+    <string name="mirror_close">Đóng</string>
+    <string name="mirror_stream_settings">⚙️ Cài đặt Stream</string>
+    <string name="mirror_udp_port">Cổng UDP</string>
+    <string name="mirror_video_config">Cấu hình Video</string>
+    <string name="mirror_audio_config">Cấu hình Audio</string>
+    <string name="mirror_rms_threshold">Ngưỡng RMS</string>
+    <string name="mirror_pan_speed">Tốc độ Pan</string>
+    <string name="mirror_pan_speed_desc">Tốc độ di chuyển khi zoom (5-80)</string>
+    <string name="mirror_audio">Âm thanh</string>
+    <string name="mirror_forced">Bắt buộc</string>
+    <string name="mirror_apply_close">Áp dụng &amp; Đóng</string>
+    <string name="mirror_function_not_available_bt">Chức năng này không khả dụng qua kết nối Bluetooth.</string>
+    <string name="mirror_status_live">LIVE</string>
+    <string name="mirror_status_ready">SẴN SÀNG</string>
+    <string name="mirror_status_off">TẮT</string>
+    <string name="mirror_waiting_stream">Đang chờ stream...</string>
+    <string name="mirror_connecting">Đang kết nối...</string>
+
+
+    <!-- ==================== SEND METHOD OPTIONS ==================== -->
+    <string name="send_method_default">Phương thức mặc định: Gửi phím</string>
+    <string name="send_method_string">Phương thức 1: Gửi tin nhắn chuỗi</string>
+    <string name="send_method_nothing">Không có</string>
+
+    <string name="send_option_0">Phương thức 0: Gửi phím</string>
+    <string name="send_option_1">Phương thức 1: Gửi tin nhắn chuỗi</string>
+    <!-- REMOTE FUJITSU -->
+
+    <!-- General -->
+    <string name="remote_title">Điều khiển Fujitsu</string>
+    <string name="remote_loading_data">Đang tải dữ liệu remote...</string>
+    <string name="remote_inverter">INVERTER</string>
+    <string name="remote_screen_off">MÀN HÌNH TẮT</string>
+    <string name="remote_power_saving">TIẾT KIỆM PIN</string>
+
+    <!-- LCD -->
+    <string name="remote_mode">CHẾ ĐỘ</string>
+    <string name="remote_fan">QUẠT</string>
+    <string name="remote_swing">ĐẢO GIÓ</string>
+    <string name="remote_sleep">NGỦ</string>
+    <string name="remote_timer">HẸN GIỜ</string>
+    <string name="remote_features">TÍNH NĂNG</string>
+    <string name="remote_set_temp">ĐẶT\nNHIỆT</string>
+    <string name="remote_set_vane">CHỈNH CÁNH</string>
+    <string name="remote_vane_indicator">彡 ←↑↓→</string>
+    <string name="remote_vane_up">彡 ĐẶT</string>
+    <string name="remote_vane_down">⭪ ĐẶT</string>
+
+    <!-- Modes -->
+    <string name="remote_mode_cool">LẠNH</string>
+    <string name="remote_mode_heat">NÓNG</string>
+    <string name="remote_mode_dry">HÚT ẨM</string>
+    <string name="remote_mode_fan">QUẠT</string>
+    <string name="remote_mode_auto">TỰ ĐỘNG</string>
+
+    <!-- Fan speeds -->
+    <string name="remote_fan_auto">TỰ ĐỘNG</string>
+    <string name="remote_fan_high">CAO</string>
+    <string name="remote_fan_med">TRUNG BÌNH</string>
+    <string name="remote_fan_low">THẤP</string>
+    <string name="remote_fan_quiet">YÊN TĨNH</string>
+
+    <!-- Status -->
+    <string name="remote_on">BẬT</string>
+    <string name="remote_off">TẮT</string>
+    <string name="remote_on_short">BẬT</string>
+    <string name="remote_off_short">TẮT</string>
+
+    <!-- Buttons -->
+    <string name="remote_mode_change">ĐỔI</string>
+    <string name="remote_start">BẬT</string>
+    <string name="remote_stop">TẮT</string>
+    <string name="remote_turn_on">BẬT MÁY</string>
+    <string name="remote_turn_off">TẮT MÁY</string>
+    <string name="remote_fan_speed">TỐC ĐỘ</string>
+
+    <!-- Features -->
+    <string name="remote_clean">🌀 LỌC KHÍ</string>
+    <string name="remote_coil_dry">💧 LÀM KHÔ</string>
+    <string name="remote_powerful">☀️ MẠNH MẼ</string>
+    <string name="remote_quiet">🔇 YÊN TĨNH</string>
+
+    <!-- Vane -->
+    <string name="remote_swing_button">⤡ ĐẢO GIÓ</string>
+
+    <!-- Timer -->
+    <string name="remote_timer_mode">CHẾ ĐỘ</string>
+    <string name="remote_hour">H</string>
+
+    <!-- Bottom -->
+    <string name="remote_clock">ĐỒNG HỒ</string>
+    <string name="remote_test">KIỂM TRA</string>
+    <string name="remote_reset">ĐẶT LẠI</string>
+</resources>

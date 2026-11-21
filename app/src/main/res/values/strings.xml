@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Touch Remote</string>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <string name="navigation_back">Back</string>
+    <string name="guide_description">User guide</string>
+
+    <!-- ==================== SETTINGS SCREEN ==================== -->
+    <string name="settings_title">Settings</string>
+
+    <!-- Language -->
+    <string name="language_select">Select language</string>
+    <string name="language_auto">Auto (System default)</string>
+    <string name="language_vietnamese">Vietnamese</string>
+    <string name="language_english">English</string>
+    <string name="language_japanese">Japanese</string>
+    <string name="language_korean">Korean</string>
+    <string name="language_french">French</string>
+    <string name="language_current_auto">🔄 Using: %s</string>
+    <string name="language_current_selected">✅ Selected: %s</string>
+
+    <!-- Instruction items -->
+    <string name="instruction_language">0. Language</string>
+    <string name="instruction_cursor">1. Cursor speed &amp; scroll settings</string>
+    <string name="instruction_mouse">2. Enable natural scroll\nReverse left/right mouse buttons</string>
+    <string name="instruction_ui">3. Enable UI weight display</string>
+    <string name="instruction_service">4. Enable background service</string>
+    <string name="instruction_screen_mirror">5. Screen Mirror</string>
+    <string name="instruction_auto_connection">6. Enable auto connection mode</string>
+
+    <!-- Cursor settings -->
+    <string name="cursor_speed">Cursor speed: %d%%</string>
+    <string name="scroll_speed">Scroll speed: %d%%</string>
+
+    <!-- Mouse options -->
+    <string name="mouse_left_hand">Left-handed mouse</string>
+    <string name="mouse_natural_scroll">Natural scroll</string>
+    <string name="mouse_vibrate">Vibrate</string>
+
+    <!-- UI widgets -->
+    <string name="ui_show_floating">Show Floatings</string>
+    <string name="ui_show_hotkeys_weight">Show hotkeys weight</string>
+    <string name="ui_show_button_text">Show Button Text &amp; Icon</string>
+    <string name="ui_show_rotation">Show Drawer right weight</string>
+    <string name="ui_show_media_multitasking">Show Media Multitasking weight</string>
+
+    <!-- Service -->
+    <string name="service_auto_task">Enable Auto Task Manager</string>
+
+    <!-- Screen Mirror -->
+    <string name="screen_mirror_auto">Enable Auto Screen Mirror</string>
+
+    <!-- Auto connection -->
+    <string name="auto_connection">Enable Auto Connection</string>
+    <!-- ==================== AUTO VERIFY PASSWORD ==================== -->
+    <string name="instruction_auto_verify_pass">Auto re-verify password</string>
+    <string name="auto_verify_select_times">Select number of retries</string>
+
+
+    <!-- Icon Cache -->
+    <string name="instruction_icon_cache">Manage icon cache</string>
+    <string name="icon_cache_reset">Reset icon cache</string>
+
+    <!-- Save button -->
+    <string name="save_settings">Save settings</string>
+    <string name="saved">Saved!</string>
+
+    <!-- ==================== ONBOARDING SCREEN ==================== -->
+    <string name="onboarding_title_download">Download App</string>
+    <string name="onboarding_desc_download">Access the link to download the app and server</string>
+
+    <string name="onboarding_title_install">Install App</string>
+    <string name="onboarding_desc_install">Install server software on your computer according to your operating system</string>
+
+    <string name="onboarding_title_search">Quick Discovery</string>
+    <string name="onboarding_desc_search">Turn on search function to scan for active drivers and streaming servers</string>
+
+    <string name="onboarding_title_sync">Seamless Sync</string>
+    <string name="onboarding_desc_sync">Synchronize connection and control your computer with just one touch</string>
+
+    <!-- Onboarding buttons -->
+    <string name="onboarding_button_next">Next</string>
+    <string name="onboarding_button_skip">Skip</string>
+    <string name="onboarding_button_back">Back</string>
+    <string name="onboarding_button_get_started">Get Started</string>
+
+    <!-- Common -->
+    <string name="string_empty"></string>
+
+    <!-- ==================== SERVER LIST CONTROL SCREEN ==================== -->
+    <string name="server_saved_title">SAVED SERVERS: %d</string>
+    <string name="server_click_to_add">Click a server below to add it and connect.</string>
+    <string name="server_edit_port">Edit port</string>
+    <string name="server_remove">Remove Server</string>
+    <string name="server_found_title">FOUND SERVERS:</string>
+    <string name="server_searching_wifi">Searching Wi-Fi…</string>
+    <string name="server_no_wifi_found">No servers found on Wi-Fi</string>
+    <string name="server_searching_bluetooth">Searching Bluetooth…</string>
+    <string name="server_no_bluetooth_found">No Bluetooth device found</string>
+    <string name="server_signal_strength">Signal: %s dBm</string>
+    <string name="server_enable_wifi_bluetooth">Please enable Wi-Fi or Bluetooth</string>
+    <string name="server_set_ports_scanner">Set ports Scanner:</string>
+    <string name="server_manual_add">Manually add a server:</string>
+    <string name="server_confirm_delete_title">Confirm Delete</string>
+    <string name="server_confirm_delete_message">Are you sure you want to delete server %s?</string>
+
+    <!-- ==================== SERVER SCREEN ==================== -->
+    <string name="server_title">Set Servers</string>
+    <string name="server_guide_title">📖 USER GUIDE</string>
+
+    <!-- ============================================================ -->
+    <!-- SERVER LIST CONTROL SCREEN                                    -->
+    <!-- ============================================================ -->
+    <string name="server_scan_ble">Scan Bluetooth</string>
+    <string name="server_scan_ble_stop">Stop BLE</string>
+    <string name="server_scan_wifi">Scan Wi-Fi</string>
+    <string name="server_scan_wifi_stop">Stop WiFi</string>
+
+    <string name="server_scanning_both">Scanning BLE + Wi-Fi…</string>
+    <string name="server_scanning_ble">Scanning Bluetooth…</string>
+    <string name="server_scanning_wifi">Scanning Wi-Fi…</string>
+
+    <string name="server_found_empty_hint">No devices found. Tap a scan button to start.</string>
+
+    <!-- ==================== ShortKey SCREEN ==================== -->
+    <string name="ShortKey_name_label">ShortKey name</string>
+    <string name="ShortKey_name_empty">Name cannot be empty</string>
+    <string name="ShortKey_type_send">Type send:</string>
+    <string name="ShortKey_send_char">Send char:</string>
+    <string name="ShortKey_keys_selected">Keys Selected: %s</string>
+    <string name="ShortKey_reset">Reset</string>
+    <string name="ShortKey_reset_success">Keyboard reset! Selected keys is empty</string>
+    <string name="ShortKey_back">Back</string>
+    <string name="ShortKey_keyboard">Keyboard</string>
+    <!-- ==================== WEIGHT ShortKey ==================== -->
+    <string name="ShortKey_empty">ShortKey empty!</string>
+    <string name="ShortKey_create">Create ShortKey</string>
+    <string name="ShortKey_remove">Remove ShortKey</string>
+
+    <!-- ==================== Hot KEY SCREEN ==================== -->
+    <string name="hot_key_title">Hotkey Hotkeys</string>
+    <string name="hot_key_select_option">Select Option</string>
+    <string name="hot_key_add">Add Hotkey</string>
+    <string name="hot_key_edit">Edit hotkey</string>
+    <string name="hot_key_remove">Remove hotkey</string>
+    <string name="hot_key_back">Back</string>
+    <string name="hot_control_missing_keys">Missing key configuration (need 12, current: %d)</string>
+
+    <!-- ==================== TASK MANAGER PAGER ==================== -->
+    <string name="task_auto">Auto</string>
+    <string name="task_manual">Manual</string>
+    <string name="task_no_delay">No delay</string>
+    <string name="task_seconds">%1$d,%2$d seconds</string>
+    <string name="task_ms">%d ms</string>
+    <string name="task_disconnected">Disconnected</string>
+    <string name="task_waiting_connection">Waiting for connection…</string>
+    <string name="task_cpu">CPU</string>
+    <string name="task_ram">RAM</string>
+    <string name="task_process_name">Name</string>
+    <string name="task_process_cpu">CPU</string>
+    <string name="task_process_ram">RAM</string>
+    <string name="task_no_processes">No processes found</string>
+    <string name="task_kill_title">Kill %s?</string>
+    <string name="task_kill_message">Are you sure you want to kill this process?</string>
+    <string name="task_refresh">Refresh</string>
+
+    <!-- ==================== PATHS WEIGHT ==================== -->
+    <string name="path_edit">Edit path</string>
+    <string name="path_create">Create path</string>
+    <string name="path_remove">Remove path</string>
+    <string name="path_add_link">Add Link</string>
+
+    <!-- ==================== RUN COMMAND PAGER ==================== -->
+    <string name="cmd_connected">Connected</string>
+    <string name="cmd_disconnected">Disconnected</string>
+    <string name="cmd_clear">Clear</string>
+    <string name="cmd_send">Send</string>
+    <string name="cmd_quick_commands">Quick Commands</string>
+    <string name="cmd_enter_command">Enter command...</string>
+    <string name="cmd_choose_command">Choose Command</string>
+
+    <!-- Quick Commands List -->
+    <string name="cmd_ipconfig">ipconfig</string>
+    <string name="cmd_ping">ping google.com</string>
+    <string name="cmd_systeminfo">systeminfo</string>
+    <string name="cmd_sfc">sfc /scannow</string>
+    <string name="cmd_chkdsk">chkdsk</string>
+    <string name="cmd_tasklist">tasklist</string>
+    <string name="cmd_netstat">netstat -an</string>
+    <string name="cmd_dir">dir</string>
+    <string name="cmd_getmac">getmac</string>
+    <string name="cmd_driverquery">driverquery</string>
+    <string name="cmd_tracert">tracert google.com</string>
+    <string name="cmd_nslookup">nslookup google.com</string>
+    <string name="cmd_pathping">pathping google.com</string>
+    <string name="cmd_arp">arp -a</string>
+    <string name="cmd_powercfg">powercfg /batteryreport</string>
+    <string name="cmd_gpresult">gpresult /r</string>
+    <string name="cmd_assoc">assoc</string>
+    <string name="cmd_cipher">cipher /w:C:</string>
+    <string name="cmd_hostname">hostname</string>
+    <string name="cmd_wmic">wmic product get name</string>
+
+    <!-- ==================== APPLICATION PAGER ==================== -->
+    <string name="app_title">Computer Apps</string>
+    <string name="app_connected">Connected</string>
+    <string name="app_disconnected">Disconnected</string>
+    <string name="app_refresh">Refresh</string>
+    <string name="app_empty_icon">No apps available.\nSwipe down to reload.</string>
+    <string name="app_on">ON</string>
+    <string name="app_off">OFF</string>
+    <string name="app_launch">Launch App</string>
+    <string name="app_close">Close App</string>
+    <string name="app_launch_action">Launch App</string>
+    <string name="app_close_action">Close App</string>
+
+    <!-- Application Pager - Reset View -->
+    <string name="app_reset_view">Reset View</string>
+
+    <!-- ==================== FILES SCREEN PAGER ==================== -->
+    <!-- Header & Navigation -->
+    <string name="files_drives">Computer Drives</string>
+    <string name="files_ShortKeys">System ShortKeys</string>
+    <string name="files_back">Back</string>
+    <string name="files_home">Home</string>
+    <string name="files_refresh">Refresh</string>
+    <string name="files_upload">Upload</string>
+    <string name="files_repeat">Retry</string>
+    <string name="files_clear">Clear</string>
+    <string name="files_paste">Paste</string>
+    <string name="files_add">Add</string>
+
+    <!-- Upload Menu -->
+    <string name="files_upload_file">Upload file to PC</string>
+    <string name="files_upload_folder">Upload folder to PC</string>
+    <string name="files_upload_folder_zip">Upload folder as ZIP to PC</string>
+
+    <!-- Add Menu -->
+    <string name="files_new_folder">New folder</string>
+    <string name="files_new_file">New file</string>
+
+    <!-- Progress & Transfer -->
+    <string name="files_download_complete">Download complete</string>
+    <string name="files_zip_downloaded">Downloaded zip file of folder: %s</string>
+    <string name="files_zip_question">What do you want to do with this zip file?</string>
+    <string name="files_extract">Extract</string>
+    <string name="files_keep_zip">Keep zip file</string>
+
+    <!-- Resume Download Dialog -->
+    <string name="files_resume_title">Select file to resume download</string>
+    <string name="files_resume_detected">Found %d incomplete downloads:</string>
+    <string name="files_resume_download">Download: %s</string>
+    <string name="files_resume_skip_all">Skip all</string>
+
+    <!-- Clear Pending Dialog -->
+    <string name="files_clear_history">Clear history</string>
+    <string name="files_clear_confirm">Are you sure you want to delete %d incomplete files?</string>
+
+    <!-- File Operations -->
+    <string name="files_copy">Copy</string>
+    <string name="files_cut">Cut</string>
+    <string name="files_rename">Rename</string>
+    <string name="files_delete">Delete</string>
+    <string name="files_download">Download</string>
+    <string name="files_download_zip">Download (ZIP)</string>
+    <string name="files_details">Details</string>
+    <string name="files_open">Open</string>
+
+    <!-- Create Dialogs -->
+    <string name="files_create_file">Create file</string>
+    <string name="files_create_folder">Create folder</string>
+    <string name="files_enter_name">Enter name</string>
+    <string name="files_rename_title">Rename</string>
+    <string name="files_new_name">New name</string>
+
+    <!-- Toast Messages -->
+    <string name="files_select_drive_first">Please select a drive or specific folder on the computer first.</string>
+    <string name="files_use_upload_button">Use the Upload button on the top right.</string>
+
+    <!-- Connection Status -->
+    <string name="files_transferring">Transferring...</string>
+    <string name="files_paused">Paused</string>
+
+    <!-- File/Item Types -->
+    <string name="files_folder">Folder</string>
+    <string name="files_file">File</string>
+
+    <!-- Buttons -->
+    <string name="files_cancel">Cancel</string>
+    <string name="files_confirm">Confirm</string>
+
+    <!-- Default Folder Names -->
+    <string name="files_desktop">Desktop</string>
+    <string name="files_documents">Documents</string>
+    <string name="files_downloads">Downloads</string>
+    <string name="files_music">Music</string>
+    <string name="files_pictures">Pictures</string>
+    <string name="files_videos">Videos</string>
+    <!-- Files screens -->
+    <string name="files_notification_approved">Notification permission approved.</string>
+    <string name="files_notification_denied">Notification permission denied.\nBackground notifications hidden.</string>
+    <string name="files_delete_selected_title">Delete %d items</string>
+    <string name="files_delete_selected_message">Are you sure you want to delete %d selected items?</string>
+    <string name="files_delete_all">Delete all</string>
+    <string name="files_close_selection">Close selection</string>
+    <string name="files_selected_count">Selected: %d</string>
+    <string name="files_select_all">Select all</string>
+    <string name="files_bt_warning">Warning: Bluetooth speed is limited to 200MB or less.</string>
+    <!-- ==================== FILE ITEM ==================== -->
+    <!-- Menu Items -->
+    <string name="file_download_file">Download file to phone</string>
+    <string name="file_download_folder">Download folder to phone</string>
+    <string name="file_download_zip_file">Download zip file to phone</string>
+    <string name="file_download_zip_folder">Download zip folder to phone</string>
+    <string name="file_open_file">Open file on computer</string>
+    <string name="file_open_folder">Open folder on computer</string>
+    <string name="file_copy_file">Copy file</string>
+    <string name="file_copy_folder">Copy folder</string>
+    <string name="file_cut_file">Cut file</string>
+    <string name="file_cut_folder">Cut folder</string>
+    <string name="file_rename_file">Rename file</string>
+    <string name="file_rename_folder">Rename folder</string>
+    <string name="file_upload_file">Upload file to computer</string>
+    <string name="file_upload_folder">Upload folder to computer</string>
+    <string name="file_details_file">File details</string>
+    <string name="file_details_folder">Folder details</string>
+    <string name="file_delete_file">Delete file</string>
+    <string name="file_delete_folder">Delete folder</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="file_delete_confirm_title">Confirm Delete</string>
+    <string name="file_delete_confirm_file">Are you sure you want to delete file %s?\n\nThis action cannot be undone.</string>
+    <string name="file_delete_confirm_folder">Are you sure you want to delete folder %s?\n\nThis action cannot be undone.</string>
+
+    <string name="files_pending_downloads">Pending downloads</string>
+    <string name="files_resume_view_list">View list (%d)</string>
+    <string name="files_resume_all">Resume all</string>
+    <string name="files_clear_all_pending">Clear all</string>
+
+    <!-- More Options -->
+    <string name="file_more_options">More options</string>
+
+    <!-- ==================== FILE DOWNLOAD/UPLOAD HANDLER ==================== -->
+    <!-- Download Handler -->
+    <string name="download_no_connection">No transfer connection</string>
+    <string name="download_connection_lost">Input connection lost</string>
+    <string name="download_connection_lost_output">Output connection lost</string>
+    <string name="download_server_refused">Server refused: %s</string>
+    <string name="download_invalid_response">Invalid response format: %s</string>
+    <string name="download_invalid_size">Invalid file size</string>
+    <string name="download_network_lost">Network connection lost</string>
+    <string name="download_incomplete_data">Incomplete data received</string>
+    <string name="download_resume_title">Resume download</string>
+    <string name="download_resuming">Resuming file...</string>
+    <string name="download_title">Download</string>
+    <string name="download_initializing">Initializing...</string>
+    <string name="download_complete_title">Download complete:</string>
+    <string name="download_saving">Saving file...</string>
+    <string name="download_complete_msg">Download complete: %s</string>
+    <string name="download_error">Error: %s</string>
+    <string name="download_scanning_folder">Scanning folder</string>
+    <string name="download_please_wait">Please wait...</string>
+    <string name="download_no_folder_response">Server did not respond with structure</string>
+    <string name="download_folder_title">Downloading folder: %s</string>
+    <string name="download_folder_progress">File %d/%d</string>
+    <string name="download_folder_complete">Folder download complete</string>
+    <string name="download_zip_title">Download Zip</string>
+    <string name="download_zip_compressing">Compressing on PC...</string>
+    <string name="download_zip_empty">Downloaded zip file is empty or corrupted</string>
+    <string name="download_extracting">Extracting</string>
+    <string name="download_extracting_progress">Extracting files...</string>
+    <string name="download_extract_error">Error extracting file: %s</string>
+    <string name="download_extract_complete_error">Extraction completed with errors: %s</string>
+    <string name="download_extract_complete">Extraction complete: %s (%d files)</string>
+    <string name="download_zip_saved">Zip saved: %s (%s)</string>
+    <string name="download_zip_temp_error">Temporary zip file is empty or does not exist</string>
+    <string name="download_zip_error">Zip Error: %s</string>
+
+    <!-- Upload Handler -->
+    <string name="upload_no_connection">No transfer connection</string>
+    <string name="upload_server_refused">Server refused command: %s</string>
+    <string name="upload_file_error">Error saving file on computer: %s</string>
+    <string name="upload_response_too_large">Response too large (>10MB)</string>
+    <string name="upload_cannot_open_file">Cannot open file</string>
+    <string name="upload_title">Upload</string>
+    <string name="upload_initializing">Initializing...</string>
+    <string name="upload_success">Upload successful: %s</string>
+    <string name="upload_error">Upload Error: %s</string>
+    <string name="upload_scanning_folder">Scanning folder...</string>
+    <string name="upload_empty_folder">Folder is empty!</string>
+    <string name="upload_folder_too_large">Folder is too large!</string>
+    <string name="upload_folder_progress">Uploading: %s</string>
+    <string name="upload_folder_file_progress">File %d/%d</string>
+    <string name="upload_folder_detail">File %d/%d | %s / %s</string>
+    <string name="upload_folder_complete">Complete: %s (%d files failed)</string>
+    <string name="upload_folder_success">Upload successful: %s</string>
+    <string name="upload_folder_error">Folder upload error: %s</string>
+    <string name="upload_zip_compressing">Compressing data</string>
+    <string name="upload_zip_packaging">Packaging...</string>
+    <string name="upload_zip_uploading">Uploading</string>
+    <string name="upload_zip_sending">Sending compressed file...</string>
+    <string name="upload_zip_success">Folder upload successful!</string>
+    <string name="upload_cancelled">Cancelled</string>
+    <string name="upload_read_error">Error reading file from Android</string>
+    <string name="upload_access_denied">System denied access.</string>
+    <string name="upload_invalid_path">Invalid path.</string>
+    <string name="upload_cannot_access_folder">Cannot access folder</string>
+    <string name="upload_unzipping_title">Extracting...</string>
+    <string name="upload_unzipping_status">Extracting files on the computer, please wait...</string>
+    <string name="upload_processing_disk">Processing PC disk...</string>
+
+    <!-- File Operations Handler -->
+    <string name="fileop_open_success">Opened</string>
+    <string name="fileop_open_failed">Open failed</string>
+    <string name="fileop_copy_success">Copied</string>
+    <string name="fileop_copy_failed">Copy failed</string>
+    <string name="fileop_cut_success">Cut</string>
+    <string name="fileop_cut_failed">Cut failed</string>
+    <string name="fileop_delete_success">Deleted</string>
+    <string name="fileop_delete_failed">Delete failed</string>
+    <string name="fileop_paste_success">Paste successful</string>
+    <string name="fileop_paste_failed">Paste failed</string>
+    <string name="fileop_rename_success">Renamed to: %s</string>
+    <string name="fileop_rename_failed">Rename failed</string>
+    <string name="fileop_create_file_success">File created: %s</string>
+    <string name="fileop_create_file_exists">File already exists: %s</string>
+    <string name="fileop_create_file_failed">Create file failed</string>
+    <string name="fileop_create_folder_success">Folder created: %s</string>
+    <string name="fileop_create_folder_failed">Create folder failed</string>
+    <string name="fileop_details_failed">Cannot get file info</string>
+    <string name="fileop_details_folder">Folder</string>
+    <string name="fileop_details_no_info">No information</string>
+    <string name="fileop_error_prefix">Error: %s</string>
+
+    <!-- ==================== FILE EXPLORER VIEWMODEL ==================== -->
+    <string name="file_explorer_empty_folder">Folder is empty or does not exist.</string>
+    <string name="file_explorer_cleared_history">Cleared all pending download history</string>
+    <string name="file_explorer_cancelled_emergency">Cancelled emergency</string>
+    <string name="file_explorer_cancelled_resumable">Cancelled (can resume later)</string>
+    <string name="file_explorer_paused">Paused</string>
+    <string name="file_explorer_reconnecting">Reconnecting…</string>
+    <string name="file_explorer_no_resumable_file">No resumable file</string>
+    <string name="file_explorer_cannot_reconnect">Cannot reconnect transfer stream</string>
+    <string name="file_explorer_response_too_large">Response too large (>10MB)</string>
+    <string name="file_explorer_unexpected_stream">Unexpected end of stream</string>
+    <string name="file_explorer_reset_complete">✅ Full reset completed, pending data preserved</string>
+
+    <!-- ==================== DOWNLOAD ERRORS ==================== -->
+    <string name="download_error_file_not_found">File not found on computer</string>
+    <string name="download_error_permission_denied">Permission denied to read file</string>
+    <string name="download_error_file_too_large">File too large (>10GB)</string>
+    <string name="download_error_cannot_open">Cannot open file</string>
+    <string name="download_error_folder_not_found">Folder not found</string>
+    <string name="download_error_cannot_open_zip">Cannot open zip file</string>
+    <string name="download_error_compress_failed">Folder compression failed</string>
+    <string name="download_error_send_timeout">Send timeout, please try again</string>
+    <string name="download_error_user_cancelled">Download cancelled</string>
+    <string name="download_error_folder_too_large_for_bluetooth">Folder too large for Bluetooth (>200MB). Please use Wi-Fi</string>
+    <string name="download_error_zip_too_large_for_bluetooth">Zip file too large for Bluetooth (>200MB). Please use Wi-Fi</string>
+
+    <!-- ==================== UPLOAD ERRORS ==================== -->
+    <string name="upload_error_invalid_format">Invalid upload command format</string>
+    <string name="upload_error_invalid_size">Invalid file size</string>
+    <string name="upload_error_cannot_create_file">Cannot create file on computer</string>
+    <string name="upload_error_cannot_create_dir">Cannot create folder on computer</string>
+    <string name="upload_error_cannot_create_temp_zip">Cannot create temporary zip file</string>
+    <string name="upload_error_file_too_large_for_bluetooth">File too large for Bluetooth (>200MB). Please use Wi-Fi</string>
+    <string name="upload_error_folder_too_large_for_bluetooth">Folder too large for Bluetooth (>200MB). Please use Wi-Fi</string>
+    <string name="upload_error_unzip_failed">Unzip failed on computer</string>
+    <string name="upload_failed_incomplete">Upload incomplete</string>
+
+    <!-- ==================== FILE OPERATION ERRORS ==================== -->
+    <string name="fileop_paste_failed_no_source">No data to paste</string>
+    <string name="fileop_path_not_found">Path not found</string>
+
+    <!-- ==================== FOLDER INFO ERROR ==================== -->
+    <string name="folder_info_error">Folder read error: %s</string>
+
+    <!-- ==================== GENERAL ERROR ==================== -->
+    <string name="unknown_error">Unknown error: %s</string>
+
+    <!-- ==================== DRAWER CONTENT ==================== -->
+    <!-- Drawer Menu Items -->
+    <string name="drawer_servers_manager">Servers Manager</string>
+    <string name="drawer_shortkey_manager">ShortKey Manager</string>
+    <string name="drawer_quickkey_manager">QuickKey Manager</string>
+    <string name="drawer_help_install">Help install App</string>
+    <string name="drawer_settings_app">Settings App</string>
+    <string name="drawer_close">Close Drawer</string>
+
+    <!-- Server Dropdown -->
+    <string name="drawer_nothing">Nothing</string>
+    <string name="drawer_device_type">Device type</string>
+
+    <!-- ==================== DIALOG ADD NEW SERVER ==================== -->
+    <string name="dialog_add_server_title">Add New Server</string>
+    <string name="dialog_add_server_bt">BT</string>
+    <string name="dialog_add_server_wifi">Wifi</string>
+    <string name="dialog_port_label">Server port</string>
+    <string name="dialog_port_error">Must be a number</string>
+    <string name="dialog_name_label">Server name</string>
+    <string name="dialog_address_label">IP Address</string>
+    <string name="dialog_mac_label">MAC Address</string>
+    <string name="dialog_uuid_label">UUID (8-4-4-4-12)</string>
+    <string name="dialog_uuid_error">Invalid UUID format</string>
+    <string name="dialog_password_label">Password (Optional)</string>
+    <string name="dialog_remember_password">Remember password</string>
+    <string name="dialog_port_invalid">Invalid port!</string>
+    <string name="dialog_name_empty">Please enter a name!</string>
+    <string name="dialog_address_empty">Please enter an address!</string>
+    <string name="dialog_uuid_invalid">Invalid UUID format!</string>
+    <string name="dialog_button_add">Add</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <!-- ==================== DIALOG ADD PORTS ==================== -->
+    <string name="dialog_ports_title">Enter AddressPorts:</string>
+    <string name="dialog_ports_scanner_label">Port Scanner: 2008</string>
+    <string name="dialog_ports_connection_label">Port Connection</string>
+    <string name="dialog_ports_invalid">Please enter valid numbers for all ports.</string>
+    <string name="dialog_ports_save">Save</string>
+    <string name="dialog_ports_cancel">Cancel</string>
+    <!-- ==================== DIALOG BOX HOTKEY ==================== -->
+    <string name="hotkey_top_circle">Top circle:</string>
+    <string name="hotkey_key_char">Key char:</string>
+    <string name="hotkey_name_label">Name</string>
+    <string name="hotkey_ShortKeys_label">ShortKeys (e.g.: CTRL+c, ALT+TAB)</string>
+    <!-- ==================== DIALOG BOX PATH ==================== -->
+    <string name="path_name_label">Name</string>
+    <string name="path_path_label">Path</string>
+    <!-- ==================== DIALOG EDIT SERVER ==================== -->
+    <string name="dialog_edit_server_title">Edit Server</string>
+    <string name="dialog_edit_port_label">Server port</string>
+    <string name="dialog_edit_port_error">Port must be a number</string>
+    <string name="dialog_edit_name_label">Server name</string>
+    <string name="dialog_edit_address_label">IP Address / Mac</string>
+    <string name="dialog_edit_uuid_label">Server UUID</string>
+    <string name="dialog_edit_uuid_error">Invalid UUID format (8-4-4-4-12)</string>
+    <string name="dialog_edit_password_label">Password</string>
+    <string name="dialog_edit_remember_password">Remember password</string>
+    <string name="dialog_edit_port_invalid">Invalid port!</string>
+    <string name="dialog_edit_name_empty">Name cannot be empty!</string>
+    <string name="dialog_edit_address_empty">Address cannot be empty!</string>
+    <string name="dialog_edit_uuid_invalid">Invalid UUID format!</string>
+    <string name="dialog_edit_save">Save</string>
+    <string name="dialog_edit_cancel">Cancel</string>
+    <!-- ==================== DIALOG INSERT/UPDATE PATH ==================== -->
+    <string name="dialog_add_path_title">Add Item</string>
+    <string name="dialog_update_path_title">Update Item</string>
+    <string name="dialog_path_add">Add</string>
+    <string name="dialog_path_update">Update</string>
+    <!-- ==================== DIALOG VERIFY PASSWORD ==================== -->
+    <string name="dialog_verify_title">🔐 Enter password</string>
+    <string name="dialog_verify_server_label">Server: %s</string>
+    <string name="dialog_verify_password_label">Password</string>
+    <string name="dialog_verify_hide_password">Hide password</string>
+    <string name="dialog_verify_show_password">Show password</string>
+    <string name="dialog_verify_remember_password">Remember password</string>
+    <string name="dialog_verify_cancel">Cancel</string>
+    <string name="dialog_verify_confirm">Authenticate</string>
+    <string name="dialog_verify_auto_title">🔐 Auto Authentication</string>
+    <string name="dialog_verify_auto_message">Authenticating automatically...</string>
+    <string name="dialog_verify_auto_retry">Attempt %d/%d</string>
+    <string name="dialog_verify_auto_retry_infinite">Auto retry attempt #%1$d...</string>
+    <string name="dialog_verify_auto_failed_infinite">Auto-authentication failed, please enter manually.</string>
+    <string name="dialog_verify_auto_failed">❌ Auto authentication failed. Please enter manually!</string>
+    <string name="dialog_verify_invalid_password">Invalid password. Please try again.</string>
+
+    <!-- ==================== FILE DETAILS DIALOG ==================== -->
+    <string name="file_details_title_folder">Folder details</string>
+    <string name="file_details_title_file">File details</string>
+    <string name="file_details_name">Name:</string>
+    <string name="file_details_type">Type:</string>
+    <string name="file_details_type_folder">Folder</string>
+    <string name="file_details_type_file">File</string>
+    <string name="file_details_size">Size:</string>
+    <string name="file_details_date">Modified date:</string>
+    <string name="file_details_path">Path:</string>
+    <string name="file_details_close">Close</string>
+
+    <!-- ==================== INPUT TEXT DIALOG ==================== -->
+    <string name="input_dialog_placeholder">Enter content…</string>
+    <string name="input_dialog_error_empty">Please enter content</string>
+    <string name="input_dialog_confirm">Confirm</string>
+    <string name="input_dialog_cancel">Cancel</string>
+
+    <!-- ==================== PROGRESS DIALOG ==================== -->
+    <string name="progress_processing">Processing...</string>
+    <string name="progress_resume">Resume</string>
+    <string name="progress_pause">Pause</string>
+    <string name="progress_cancel_immediate">Cancel now</string>
+    <!-- ==================== CONNECTION VIEW MODEL ==================== -->
+
+    <!-- Auto Connect -->
+    <string name="connection_auto_failed">Auto-connect failed</string>
+
+    <!-- Connect -->
+    <string name="connection_connecting_role">Connecting %2$s to %1$s...</string>
+    <string name="connection_disconnected">Disconnected</string>
+    <string name="connection_success">Connection successful</string>
+    <string name="connection_failed">Failed to connect to %1$s</string>
+
+    <!-- Authentication -->
+    <string name="connection_auth_success">Authentication successful</string>
+    <string name="connection_auth_retry">Authentication attempt %1$d/%2$d...</string>
+    <string name="connection_auth_auto_retry">Auto-authenticating...</string>
+    <string name="connection_auth_failed_password">Authentication failed, please enter password</string>
+    <string name="connection_auth_failed_retry">Max retries reached (%1$d), please enter manually</string>
+    <string name="connection_checking_password">Checking password...</string>
+    <string name="connection_save_password_error">Failed to save password</string>
+
+    <!-- Ping -->
+    <string name="connection_pinging">Pinging %1$s...</string>
+    <string name="connection_not_connected_role">%1$s not connected</string>
+    <string name="connection_reconnecting_role">Reconnecting %1$s...</string>
+    <string name="connection_stable_role">%1$s connection stable</string>
+    <string name="connection_ping_failed_role">%1$s ping failed</string>
+    <string name="connection_reconnect_failed">Reconnection failed</string>
+
+    <!-- Network -->
+    <string name="connection_wifi_bluetooth_off">WiFi and Bluetooth are off</string>
+    <string name="connection_enable_network">Please turn on WiFi or Bluetooth</string>
+
+    <!-- UI -->
+    <string name="connection_no_server">No server selected</string>
+    <string name="connection_select_server">Please select a server</string>
+    <string name="connection_cancelled">Cancelled</string>
+
+    <!-- No Server -->
+    <string name="no_server_title">No Server Found</string>
+    <string name="no_server_message">Please add a server to start using the app</string>
+    <string name="no_server_button">Add Server</string>
+
+    <!-- Badges -->
+    <string name="server_badge_ble">BLE</string>
+    <string name="server_badge_wifi">WiFi</string>
+
+    <!-- Default name -->
+    <string name="server_unknown_name">Unknown</string>
+
+    <!-- ============================================================
+         NETWORK STATUS STRINGS - English
+         ============================================================ -->
+
+    <string name="network_status_no_network">No network connection</string>
+    <string name="network_status_need_password">Password required for %1$s</string>
+    <string name="network_status_loading">Loading...</string>
+    <string name="network_status_disconnected">Disconnected</string>
+    <string name="network_status_connected">Connected</string>
+    <string name="network_button_turn_on">Turn On</string>
+    <string name="network_button_choose_server">Choose Server</string>
+    <string name="network_button_reconnect">Reconnect</string>
+    <string name="network_button_enter_password">Enter Password</string>
+
+
+
+    <!-- ============================================================ -->
+    <!-- SHORTCUT SCREEN                                               -->
+    <!-- ============================================================ -->
+    <string name="shortcut_title_add">Add shortcut</string>
+    <string name="shortcut_back">Back</string>
+    <string name="shortcut_saved_success">Shortcut saved</string>
+    <string name="shortcut_name_empty">Shortcut name cannot be empty</string>
+    <string name="shortcut_name_label">Shortcut name</string>
+    <string name="shortcut_name_placeholder">e.g. Save All</string>
+    <string name="shortcut_save">Save</string>
+    <string name="shortcut_combination_count">Combination (%1$d keys)</string>
+    <string name="shortcut_clear_all">Clear all</string>
+    <string name="shortcut_remove_key">Remove key</string>
+    <string name="shortcut_search_hint">Search keys…</string>
+    <string name="shortcut_search_clear">Clear search</string>
+    <string name="shortcut_no_keys_found">No keys found</string>
+
+    <string name="power_shortcut_title">No power Shortcut</string>
+    <string name="power_confirm_title">%s computer</string>
+    <string name="power_confirm_message">Are you sure you want to %s?</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — GENERAL                                         -->
+    <!-- ============================================================ -->
+    <string name="quickkey_title_add">Add Quick Key</string>
+    <string name="quickkey_title_edit">Edit Quick Key</string>
+    <string name="quickkey_back">Back</string>
+    <string name="quickkey_save">Save</string>
+    <string name="quickkey_create">Create</string>
+    <string name="quickkey_edit">Edit</string>
+    <string name="quickkey_remove">Delete</string>
+    <string name="quickkey_empty">No quick keys yet</string>
+    <string name="quickkey_saved_success">Quick key saved</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — NAME                                            -->
+    <!-- ============================================================ -->
+    <string name="quickkey_name_label">Name</string>
+    <string name="quickkey_name_placeholder">Enter quick key name</string>
+    <string name="quickkey_name_empty">Please enter a name</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — SEARCH                                          -->
+    <!-- ============================================================ -->
+    <string name="quickkey_search_hint">Search keys…</string>
+    <string name="quickkey_search_clear">Clear search</string>
+    <string name="quickkey_no_keys_found">No keys found</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — COMBINATION PREVIEW                             -->
+    <!-- ============================================================ -->
+    <string name="quickkey_combination_count">Combination (%1$d)</string>
+    <string name="quickkey_clear_all">Clear all</string>
+    <string name="quickkey_remove_key">Remove key</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — PRESET                                          -->
+    <!-- ============================================================ -->
+    <string name="quickkey_preset_all">All</string>
+    <string name="quickkey_preset_choose">Choose app</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — TYPE                                            -->
+    <!-- ============================================================ -->
+    <string name="quickkey_type_label">Type</string>
+    <string name="quickkey_type_shortcut">Shortcut</string>
+    <string name="quickkey_type_launch">Launch</string>
+
+    <!-- ============================================================ -->
+    <!-- QUICK KEYS — LAUNCH SECTION                                  -->
+    <!-- ============================================================ -->
+    <string name="quickkey_launch_section">Launch apps</string>
+
+    <string name="quickkey_preset_add_new">Add new app…</string>
+    <string name="quickkey_preset_name_placeholder">App name</string>
+    <string name="quickkey_preset_add_confirm">Confirm</string>
+    <string name="quickkey_preset_add_cancel">Cancel</string>
+
+    <!-- ============================================================ -->
+    <!-- WEIGHT SHORTCUT — MAIN                                        -->
+    <!-- ============================================================ -->
+    <string name="shortcut_empty">Shortcut empty!</string>
+    <string name="shortcut_create">Create Shortcut</string>
+    <string name="shortcut_remove">Remove Shortcut</string>
+    <string name="shortcut_keyboard">Keyboard</string>
+
+    <string name="shortcut_type_media_default">Default Media</string>
+    <string name="shortcut_type_youtube">YouTube</string>
+    <string name="shortcut_type_dailymotion">Dailymotion</string>
+    <string name="shortcut_type_video_player">Video</string>
+    <string name="shortcut_type_music_player">Music</string>
+
+    <string name="media_shortcut_captions">Captions</string>
+
+    <!-- ============================================================ -->
+    <!-- WEIGHT COMMAND KEYS KEYBOARD                                  -->
+    <!-- ============================================================ -->
+    <string name="command_keys_search_hint">Search keys…</string>
+    <string name="command_keys_search_clear">Clear search</string>
+    <string name="command_keys_close">Close</string>
+    <string name="command_keys_selected_count">Selected combination (%1$d):</string>
+    <string name="command_keys_clear_all">Clear all</string>
+    <string name="command_keys_remove_key">Remove key</string>
+    <string name="command_keys_backspace">Backspace</string>
+    <string name="command_keys_send_with_keys">Send: %1$s</string>
+    <string name="command_keys_pick_more">Pick more keys…</string>
+    <string name="command_keys_sent">Sent: %1$s</string>
+    <string name="command_keys_invalid">Invalid combination</string>
+
+    <!-- Key Groups -->
+    <string name="key_group_modifiers">Modifiers</string>
+    <string name="key_group_letters">Letters</string>
+    <string name="key_group_digits">Digits</string>
+    <string name="key_group_symbols">Symbols</string>
+    <string name="key_group_function">Function</string>
+    <string name="key_group_navigation">Navigation</string>
+    <string name="key_group_control">Control</string>
+
+    <!-- ============================================================ -->
+    <!-- BOTTOM NAVIGATION                                             -->
+    <!-- ============================================================ -->
+    <string name="bottom_nav_mouse">Mouse</string>
+    <string name="bottom_nav_shortcut">ShortKey</string>
+    <string name="bottom_nav_keyboard">Keyboard</string>
+    <string name="bottom_nav_media">Media</string>
+    <string name="bottom_nav_browser">Browser</string>
+    <string name="bottom_nav_power">Power</string>
+
+    <!-- ============================================================ -->
+    <!-- ICON PICKER                                                   -->
+    <!-- ============================================================ -->
+    <string name="icon_picker_dropdown_loading_icons">Loading icons…</string>
+    <string name="shortcut_setup_title">Shortcut Setup</string>
+    <string name="shortcut_setup_select_option">Select option</string>
+    <string name="shortcut_setup_edit">Edit</string>
+    <string name="shortcut_setup_remove">Remove</string>
+    <string name="os_ubuntu">Ubuntu</string>
+
+    <string name="command_keys_mode_combo">Combo</string>
+    <string name="command_keys_mode_instant">Instant</string>
+    <string name="command_keys_instant_hint">Tap a key to send instantly. Modifiers (Ctrl/Shift/Alt/Win) stay latched until tapped again.</string>
+
+    <!-- Folders -->
+    <string name="hotkey_computer">Computer</string>
+    <string name="hotkey_desktop">Desktop</string>
+    <string name="hotkey_documents">Documents</string>
+    <string name="hotkey_downloads">Downloads</string>
+    <string name="hotkey_music">Music</string>
+    <string name="hotkey_videos">Videos</string>
+    <string name="hotkey_pictures">Pictures</string>
+    <!-- ==================== SCAN APPS BUTTON ==================== -->
+    <string name="scan_apps_stop">Stop Scan</string>
+    <string name="scan_apps_scan">Scan Apps</string>
+    <string name="select_app">Select App</string>
+    <!-- ==================== SCREEN MIRROR PAGER ==================== -->
+
+    <!-- Mirror Screen -->
+    <string name="mirror_mouse_adjust">🖱️ Mouse Adjustment</string>
+    <string name="mirror_mouse_x">X Axis (Horizontal)</string>
+    <string name="mirror_mouse_x_desc">Adjust horizontal position of virtual mouse</string>
+    <string name="mirror_mouse_y">Y Axis (Vertical)</string>
+    <string name="mirror_mouse_y_desc">Adjust vertical position of virtual mouse (taskbar offset)</string>
+    <string name="mirror_reset">Reset</string>
+    <string name="mirror_close">Close</string>
+    <string name="mirror_stream_settings">⚙️ Stream Settings</string>
+    <string name="mirror_udp_port">UDP Port</string>
+    <string name="mirror_video_config">Video Config</string>
+    <string name="mirror_audio_config">Audio Config</string>
+    <string name="mirror_rms_threshold">RMS Threshold</string>
+    <string name="mirror_pan_speed">Pan Speed</string>
+    <string name="mirror_pan_speed_desc">Movement speed when zoomed (5-80)</string>
+    <string name="mirror_audio">Audio</string>
+    <string name="mirror_forced">Forced</string>
+    <string name="mirror_apply_close">Apply &amp; Close</string>
+    <string name="mirror_function_not_available_bt">This function is not available over a Bluetooth connection.</string>
+    <string name="mirror_status_live">LIVE</string>
+    <string name="mirror_status_ready">READY</string>
+    <string name="mirror_status_off">OFF</string>
+    <string name="mirror_waiting_stream">Waiting for stream...</string>
+    <string name="mirror_connecting">Connecting...</string>
+
+
+    <!-- ==================== SEND METHOD OPTIONS ==================== -->
+    <string name="send_method_default">Method default: Send key</string>
+    <string name="send_method_string">Method 1: Send String Message</string>
+    <string name="send_method_nothing">Nothing</string>
+
+    <string name="send_option_0">Method 0: Send key</string>
+    <string name="send_option_1">Method 1: Send String Message</string>
+
+
+    <!-- REMOTE FUJITSU -->
+    <string name="remote_title">Fujitsu Remote</string>
+    <string name="remote_loading_data">Loading remote data...</string>
+    <string name="remote_inverter">INVERTER</string>
+    <string name="remote_screen_off">SCREEN OFF</string>
+    <string name="remote_power_saving">POWER SAVING</string>
+    <string name="remote_mode">MODE</string>
+    <string name="remote_fan">FAN</string>
+    <string name="remote_swing">SWING</string>
+    <string name="remote_sleep">SLEEP</string>
+    <string name="remote_timer">TIMER</string>
+    <string name="remote_features">FEATURES</string>
+    <string name="remote_set_temp">SET\nTEMP.</string>
+    <string name="remote_set_vane">SET VANE</string>
+    <string name="remote_vane_indicator">彡 ←↑↓→</string>
+    <string name="remote_vane_up">彡 SET</string>
+    <string name="remote_vane_down">⭪ SET</string>
+    <string name="remote_mode_cool">COOL</string>
+    <string name="remote_mode_heat">HEAT</string>
+    <string name="remote_mode_dry">DRY</string>
+    <string name="remote_mode_fan">FAN</string>
+    <string name="remote_mode_auto">AUTO</string>
+    <string name="remote_fan_auto">AUTO</string>
+    <string name="remote_fan_high">HIGH</string>
+    <string name="remote_fan_med">MED</string>
+    <string name="remote_fan_low">LOW</string>
+    <string name="remote_fan_quiet">QUIET</string>
+    <string name="remote_on">ON</string>
+    <string name="remote_off">OFF</string>
+    <string name="remote_on_short">ON</string>
+    <string name="remote_off_short">OFF</string>
+    <string name="remote_mode_change">CHANGE</string>
+    <string name="remote_start">START</string>
+    <string name="remote_stop">STOP</string>
+    <string name="remote_turn_on">TURN ON</string>
+    <string name="remote_turn_off">TURN OFF</string>
+    <string name="remote_fan_speed">SPEED</string>
+    <string name="remote_clean">🌀 CLEAN</string>
+    <string name="remote_coil_dry">💧 COIL DRY</string>
+    <string name="remote_powerful">☀️ POWERFUL</string>
+    <string name="remote_quiet">🔇 QUIET</string>
+    <string name="remote_swing_button">⤡ SWING</string>
+    <string name="remote_timer_mode">MODE</string>
+    <string name="remote_hour">H</string>
+    <string name="remote_clock">CLOCK</string>
+    <string name="remote_test">TEST</string>
+    <string name="remote_reset">RESET</string>
+</resources>
