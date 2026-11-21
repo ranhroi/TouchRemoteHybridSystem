@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="HybridSocketDll/HybridSocketDll.vcxproj" Id="86e2c537-e9fa-48f0-848a-5a290a429afa" />
+  <Project Path="TouchRemoteServer.vcxproj" Id="3bade025-b78d-4a15-8654-788047baf38a" />
+  <Project Path="TouchRemoteServerUI/TouchRemoteServerUI.vcxproj" />
+  <Project Path="TouchRemoteServerWizard/TouchRemoteServerWizard.vcxproj" Id="6e16c759-d55d-44ef-a489-1fe97222a98f" />
+</Solution>
